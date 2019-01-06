@@ -6,9 +6,9 @@ mylist=[]
 mylist.append(dic1)
 mylist.append(dic2)
 mylist.append(dic3)
-
 print(mylist)
 result={}
 for mydict in mylist:
     for key in mydict:
       result[key]=mydict[key]
+print(result)
