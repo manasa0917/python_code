@@ -1,0 +1,7 @@
+apple
+apple
+orange
+guava
+banana
+pineapple
+pineapple
