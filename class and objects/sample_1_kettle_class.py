@@ -1,6 +1,6 @@
 #This is a class definition
 class Kettle(object):
-
+    certification = "ISI"
     def __init__(self,make,price):
         self.make = make
         self.price = price
@@ -14,6 +14,7 @@ kenwood = Kettle("Kenwood",200)
 print(kenwood.make)
 print(kenwood.price)
 
+kenwood.certification="ISO"
 kenwood.price = 500
 print(kenwood.price)
 
@@ -37,7 +38,12 @@ print(kenwood.on)
 print("*"*80)
 kenwood.power = 150
 print(kenwood.power)
+print("*"*200)
+print(kenwood.certification)
 
+print(hamilton.__dict__ )
+print(kenwood.__dict__)
+print(Kettle.__dict__)
 """
 Class : Template for creating objects . All objects created using the same class will have same characterstics
 Object : An instance of the class
